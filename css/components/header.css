@@ -1,0 +1,24 @@
+.header__aviso {
+  background-color: var(--color__black);
+  color: #fff;
+  padding: 16px 0;
+  text-align: center;
+}
+
+.header__aviso span {
+  font-weight: bold;
+}
+
+.header__aviso .desktop {
+  display: none;
+}
+
+@media (width > 714px) {
+  .header__aviso .desktop {
+    display: block;
+  }
+
+  .header__aviso .mobile {
+    display: none;
+  }
+}
